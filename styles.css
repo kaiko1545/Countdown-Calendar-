@@ -1,27 +1,61 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5); /* Cool gradient background */
 }
 
+/* Container Styling */
 .container {
     text-align: center;
     background: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    animation: fadeIn 2s ease-in-out;
 }
 
+/* Countdown Styling */
 #countdown {
-    font-size: 2em;
+    font-size: 2.5em;
+    color: #333;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
+/* Daily Content Styling */
 #daily-content {
     font-size: 1.2em;
     margin-top: 20px;
+    color: #555;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
