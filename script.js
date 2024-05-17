@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (dayNumber >= 0 && dayNumber < dailyContent.length) {
             contentElement.textContent = dailyContent[dayNumber];
         } else {
-            contentElement.textContent = "Stay tuned for more!";
+            contentElement.textContent = "I Love You Tato!";
         }
     }
 
